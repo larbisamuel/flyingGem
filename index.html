@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CliftonStrengths Coaching</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to SCSS/CSS -->
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">GALLUP®</div>
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#">Workplace Advisory</a></li>
+          <li><a href="#">CliftonStrengths</a></li>
+          <li><a href="#">Research & Polling</a></li>
+          <li><a href="#">Courses & Events</a></li>
+          <li><a href="#">News & Insights</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <a href="#" class="btn redeem-code">REDEEM CODE</a>
+        <a href="#" class="btn shop">SHOP</a>
+        <a href="#" class="btn sign-in">SIGN IN</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>Fulfill Your Potential With the Help of a CliftonStrengths Coach</h1>
+        <p>You want to be better. A better leader. A better manager. A better partner.</p>
+        <p>You need someone to help you be better by developing what you naturally do best.</p>
+        <p>You need a CliftonStrengths coach.</p>
+        <div class="hero-buttons">
+          <a href="#" class="btn video-btn">WATCH VIDEO</a>
+          <a href="#" class="btn coaching-btn">GET CLIFTONSTRENGTHS COACHING</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="coaching-options">
+    <h2 class="coaching-title">
+      Choose From Two Ways to Find the Right CliftonStrengths Coach for You
+    </h2>
+    <div class="coaching-container">
+      <!-- Left Coaching Card -->
+      <div class="coaching-card">
+        <h3>Sessions With Gallup's Own <br> Professional Coaches</h3>
+        <img src="./images/cooperate.webp" alt="Gallup Professional Coaches" class="coach-image">
+        <p>
+          For decades, Gallup coaches have been trusted advisers to individuals looking to 
+          succeed using their CliftonStrengths.
+        </p>
+        <p>
+          Book a coaching session or series with a Gallup coach today. 
+          <a href="#">Learn more.</a>
+        </p>
+        <button class="btn browse-options">Browse Options</button>
+      </div>
+  
+      <!-- Right Coaching Card -->
+      <div class="coaching-card">
+        <h3>Sessions With Gallup-Certified <br> Strengths Coaches</h3>
+        <img src="./images/cooperate3.jpg" alt="Gallup Certified Coaches" class="coach-image">
+        <p>
+          Gallup has trained and certified thousands of coaches in the science of 
+          strengths-based development.
+        </p>
+        <p>
+          Find a coach from our global network of Gallup-Certified Strengths Coaches. 
+          <a href="#">Learn more.</a>
+        </p>
+        <button class="btn browse-directory">Browse Coaches Directory</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="schedule-section">
+    <div class="schedule-div">
+        <div class="schedule-content">
+            <h1>Schedule a Session With Gallup's Own Coaches</h1>
+            <p>We offer strengths-based development coaching sessions conducted by Gallup coaches.</p>
+            <p>These experts average more than a decade of experience providing extensive coaching to managers, leaders and executives.</p><br>
+            <div class="coach-section">
+                <p>Learn how Gallup coaches can help you in a coaching session, or Learn more contact us to find the right solution in your area:</p>
+            </div>
+            <div class="country-list">
+                <ul>
+                    <li>Africa / Asia</li>
+                    <li>Australia / New Zealand</li>
+                    <li>Canada</li>
+                    <li>Europe</li>
+                    <li>United Kingdom</li>
+                    <li>United States</li>
+                </ul>
+            </div>
+            <button class="btn-contact-us">Contact us</button>
+        </div>
+        
+    </div>
+
+   
+</section>
+
+  <section class="coach-form-section">
+    <h2>Find the Right Coach to Help Fulfill Your Potential</h2>
+    <p>
+      Complete this form and Gallup will send you more information about how to find the right coaching solution for you.
+    </p>
+    <p>(*) Required</p>
+    <form class="coach-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="full-name">* FULL NAME</label>
+          <input type="text" id="full-name" placeholder="Full Name" required>
+        </div>
+        <div class="form-group">
+          <label for="company">* COMPANY</label>
+          <input type="text" id="company" placeholder="Company" required>
+        </div>
+      </div>
+  
+      <div class="form-row">
+        <div class="form-group">
+          <label for="job-title">* JOB TITLE</label>
+          <select id="job-title" required>
+            <option value="">Select One</option>
+            <option value="manager">Manager</option>
+            <option value="executive">Executive</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="postal-code">* POSTAL CODE</label>
+          <input type="text" id="postal-code" placeholder="Postal Code" required>
+        </div>
+      </div>
+  
+      <div class="form-row">
+        <div class="form-group">
+          <label for="email">* EMAIL ADDRESS</label>
+          <input type="email" id="email" placeholder="Email Address" required>
+        </div>
+        <div class="form-group">
+          <label for="country">* COUNTRY OR REGION</label>
+          <select id="country" required>
+            <option value="">Select One</option>
+            <option value="us">United States</option>
+            <option value="uk">United Kingdom</option>
+            <option value="ca">Canada</option>
+          </select>
+        </div>
+      </div>
+  
+      <div class="form-row">
+        <div class="form-group full-width">
+          <label for="phone-number">* PHONE NUMBER</label>
+          <input type="tel" id="phone-number" placeholder="Phone Number" required>
+        </div>
+      </div>
+  
+      <div class="form-checkbox">
+        <input type="checkbox" id="newsletter">
+        <label for="newsletter">
+          I'd also like to be among the first to know about new Gallup offerings and services.
+        </label>
+      </div>
+  
+      <p class="form-privacy">
+        By clicking the button below, you agree to have your information processed, transferred and stored on servers in the United States. 
+      </p>
+      <button type="submit" class="btn submit-button">Submit</button>
+    </form>
+  </section>
+
+    <footer>
+        <div class="container-footer">
+            <div class="fast-links">
+                <div class="media">
+                    <div class="logo">GALLUP®</div>
+                </div>
+                <div class="footer-nav-links">
+                    <nav class="nav-links1">
+                        <ul>
+                          <li><a href="#">About Us</a></li>
+                          <li><a href="#">Careers</a></li>
+                          <li><a href="#">Locations</a></li>
+                          <li><a href="#">News</a></li>
+                          <li><a href="#">Store</a></li>
+                        </ul>
+                      </nav>
+                </div>
+                <div class="contactUs-links">
+                    <nav class="nav-links1">
+                        <ul>
+                          <li><a href="#">Media Center</a></li>
+                          <li><a href="#">Gallup Speakers</a></li>
+                          <li><a href="#">Research & Polling</a></li>
+                          <li><a href="#">Customer Support</a></li>
+                        </ul>
+                        
+                      </nav>
+                      <button class="contact-btn">Contact Us</button>
+                </div>
+            </div>
+            <div class="subscriber-form">
+                <div class="subscriber-container">
+                    <p>Subscribe to Our Latest Insights</p>
+                    <input type="text" placeholder="Your Email address">
+                    <button>Sign Up</button>
+                </div>
+                
+            </div>
+
+        </div>
+        
+    </footer>
+ 
+  
+    <header class="navbar">
+        <div class="container">
+          <div class="logo">GALLUP®</div>
+          <!-- <nav class="nav-links">
+            <ul>
+              <li><a href="#">Workplace Advisory</a></li>
+              <li><a href="#">CliftonStrengths</a></li>
+              <li><a href="#">Research & Polling</a></li>
+              <li><a href="#">Courses & Events</a></li>
+              <li><a href="#">News & Insights</a></li>
+            </ul>
+          </nav> -->
+          <div class="nav-actions">
+            <a href="#" class="btn redeem-code">REDEEM CODE</a>
+            <a href="#" class="btn shop">SHOP</a>
+            <a href="#" class="btn sign-in">SIGN IN</a>
+          </div>
+        </div>
+      </header>
+</body>
+</html>
