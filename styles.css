@@ -84,6 +84,7 @@ ul {
 .hero .hero-overlay .hero-content h1 {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
+  font-family: lato light;
 }
 .hero .hero-overlay .hero-content p {
   margin-bottom: 1rem;
@@ -188,7 +189,7 @@ ul {
 .schedule-section {
   background: url('./images/cooperate3.jpg') no-repeat center center/cover;
   color: #fff;
-  height: 60vh;
+  height: 70vh;
   /* background: rgba(0, 0, 0, 0.6); */
 
 }
@@ -224,6 +225,10 @@ ul {
   padding: 0rem 1.5rem;
 }
 
+.country-list ul {
+  list-style-type: disc;
+}
+
 .country-list li {
   padding: 5px 0px 5px;
   /* text-decoration: underline solid green; */
@@ -249,6 +254,8 @@ ul {
 }
 .btn-contact-us:hover{
   background: #003100;
+  color: white;
+  cursor: pointer;
 }
 
 .coach-form-section {
@@ -353,6 +360,152 @@ ul {
       }
     }
   }
+}
+
+.find-coach-section {
+  height: 80vh;
+
+}
+
+.find-coach-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: left;
+  margin-top: 90px;
+  gap: 150px;
+}
+
+
+.coach-need {
+  text-align: left;
+  max-width: 500px;
+  text-align: justify;
+}
+
+.coach-need h2 {
+  /* font-weight: 400; */
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.coach-need p {
+  padding: 15px;
+  padding-left: 0px;
+  font-size: 18px;
+  
+}
+
+.coach-provision {
+  margin-top: 70px;
+}
+
+.coach-provision h3{
+  margin-bottom: 10px;
+}
+
+.coach-provision li {
+  padding-bottom: 10px ;
+  font-size: 17px;
+}
+.coach-provision ul {
+  list-style-type: disc;
+}
+
+
+
+
+.coach-btn button {
+  color: white;
+  border: none;
+  border-radius: 3px;
+  background-color: #00695c;
+  font-size: 11px;
+  padding: 12px;
+
+}
+
+.coach-btn button:hover {
+  cursor: pointer;
+  background-color: #19ab19;
+}
+
+.commendation-section {
+  height: 50vh;
+  /* border-bottom: 1px solid black; */
+}
+
+.commendation-con {
+  display: flex;
+  height: 50%;
+  /* gap: 50%; */
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* align-items: baseline; */
+  
+}
+
+.comm-image {
+  /* background: url("./images/cooperate3.jpg") no-repeat center center/cover; */
+  
+   margin-top: 20px;
+ justify-content: center;
+ padding: 10px;
+}
+
+.comm-image img {
+  height: 20rem;
+  width: 40rem;
+  border-radius: 10px ;
+}
+
+.commendation {
+  text-align: justify;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 60px;
+  font-style: italic;
+  line-height: 30px;
+  font-weight: 100;
+}
+
+.commendation-section2 {
+  height: 50vh;
+  border-bottom: 1px solid black;
+}
+
+.commendation-con2 {
+  display: flex;
+  height: 50%;
+  /* gap: 50%; */
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* align-items: baseline; */
+  
+}
+
+.comm-image {
+  /* background: url("./images/cooperate3.jpg") no-repeat center center/cover; */
+  
+   margin-top: 20px;
+ justify-content: center;
+ padding: 10px;
+}
+
+.comm-image img {
+  height: 20rem;
+  width: 40rem;
+  border-radius: 10px ;
+}
+
+.commendation2 {
+  text-align: justify;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 60px;
+  font-style: italic;
+  line-height: 30px;
+  font-weight: 100;
 }
 
 .footer {
